@@ -60,5 +60,11 @@ processLines = function(stdout){
       value: value
     }
   }
+  
+  if(id) {
+    return {
+      id: id
+    }
+  }
 
 }
